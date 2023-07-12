@@ -1,5 +1,5 @@
 {% set name = "jaraco.itertools" %}
-{% set version = "6.2.1" %}
+{% set version = "6.4.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 6098edb37c6b8023f3794d42588a13bf75b2ca02b40ff9795c846bcbe0c1b46c
+  sha256: 314fce562ebb45ea4822a98bbd7b22e5feac7d5118dbc1a4f1eb2cd046bffa47
 
 build:
   number: 0
