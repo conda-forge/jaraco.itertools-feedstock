@@ -1,16 +1,16 @@
 {% set name = "jaraco.itertools" %}
-{% set version = "6.2.1" %}
+{% set version = "6.4.2" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 6098edb37c6b8023f3794d42588a13bf75b2ca02b40ff9795c846bcbe0c1b46c
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/jaraco_itertools-{{ version }}.tar.gz
+  sha256: 36c98e8bd7906b27021062e2fe141a0b7281dc6e7a59cf605fb70771a4bb4abd
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
