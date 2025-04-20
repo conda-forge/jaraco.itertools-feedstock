@@ -18,7 +18,8 @@ requirements:
   host:
     - pip
     - python {{ python_min }}
-    - setuptools_scm >=1.15.0
+    - setuptools >=61.2
+    - setuptools_scm >=3.4.1
   run:
     - python >={{ python_min }}
     - more-itertools >=4.0.0
